@@ -1,6 +1,2 @@
 [build]
-  command = "rm -rf dist && mkdir dist && unzip -o site.zip -d dist"
-  publish = "dist"
-
-[functions]
-  directory = "dist/netlify/functions"
+  publish = "skr"
